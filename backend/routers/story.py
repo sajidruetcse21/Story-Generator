@@ -12,3 +12,8 @@ from schemas.story import(
 )
 
 from schemas.job import StoryJobResponse
+
+router = APIRouter(
+    prefix="/stories",
+    tags=["stories"]
+)
